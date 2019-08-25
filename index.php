@@ -48,10 +48,10 @@
         <i class="fa fa-phone"></i> +62 823 8800 0124
       </div>
       <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <!-- <i href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+        <!-- <i href="#" class="facebook"><i class="fa fa-facebook"></i></a> -->
+        <!-- <i href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
+        <!-- <i href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
         <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
@@ -74,16 +74,16 @@
           <li class="menu-active"><a href="#body">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -99,7 +99,7 @@
       <h2>Skyrocketing  <br><span>YOUR COMPANY!</span><br></h2>
       <div>
         <a href="#about" class="btn-get-started scrollto">GET IN TOUCH</a>
-        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+        <!-- <a href="#portfolio" class="btn-projects scrollto">Our Projects</a> -->
       </div>
     </div>
 
@@ -164,7 +164,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="fa fa-picture-o"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title"><a href="">ERP System</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
             </div>
           </div>
@@ -217,7 +217,7 @@
     <!--==========================
       Our Portfolio Section
     ============================-->
-    <section id="portfolio" class="wow fadeInUp">
+    <!-- <section id="portfolio" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Our Portfolio</h2>
@@ -319,7 +319,8 @@
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section> -->
+    <!-- #portfolio -->
 
     <!--==========================
       Testimonials Section
@@ -419,69 +420,91 @@
           <h2>Our Team</h2>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6">
+          
+          <div class="col-lg-1 col-md-0"></div>
+
+          <div class="col-lg-2 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+              <div class="pic"><img src="img/man.png" alt=""></div>
               <div class="details">
                 <h4>Naufal F Sayuti</h4>
                 <span>Business Development</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
                   <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+              <div class="pic"><img src="img/man.png" alt=""></div>
               <div class="details">
                 <h4>Dzaky Rifqiatha</h4>
                 <span>Business Analyst</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
                   <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+              <div class="pic"><img src="img/man.png" alt=""></div>
               <div class="details">
                 <h4>Tosca Yoel Connery</h4>
-                <span>Tech lead</span>
+                <span>Tech Lead</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
                   <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <div class="pic"><img src="img/man.png" alt=""></div>
               <div class="details">
-                <h4>Broto Seno</h4>
+                <h4>Brotos Seno</h4>
                 <span>Designer</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
                   <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/man.png" alt=""></div>
+              <div class="details">
+                <h4>Anas Aditya</h4>
+                <span>Front End Lead</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-1 col-md-0"></div>
+
         </div>
 
       </div>
