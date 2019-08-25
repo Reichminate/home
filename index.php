@@ -193,7 +193,7 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="clients" class="wow fadeInUp">
+    <!-- <section id="clients" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Clients</h2>
@@ -212,7 +212,8 @@
         </div>
 
       </div>
-    </section><!-- #clients -->
+    </section> -->
+    <!-- #clients -->
 
     <!--==========================
       Our Portfolio Section
@@ -325,7 +326,7 @@
     <!--==========================
       Testimonials Section
     ============================-->
-    <section id="testimonials" class="wow fadeInUp">
+    <!-- <section id="testimonials" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Testimonials</h2>
@@ -391,12 +392,13 @@
         </div>
 
       </div>
-    </section><!-- #testimonials -->
+    </section> -->
+    <!-- #testimonials -->
 
     <!--==========================
       Call To Action Section
     ============================-->
-    <section id="call-to-action" class="wow fadeInUp">
+    <!-- <section id="call-to-action" class="wow fadeInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
@@ -409,7 +411,8 @@
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section> -->
+    <!-- #call-to-action -->
 
     <!--==========================
       Our Team Section
@@ -475,7 +478,7 @@
             <div class="member">
               <div class="pic"><img src="img/man.png" alt=""></div>
               <div class="details">
-                <h4>Brotos Seno</h4>
+                <h4>Broto Seno</h4>
                 <span>Designer</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>

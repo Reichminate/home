@@ -217,7 +217,7 @@
     <!--==========================
       Our Portfolio Section
     ============================-->
-    <!-- <section id="portfolio" class="wow fadeInUp">
+    <section id="portfolio" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Our Portfolio</h2>
@@ -320,7 +320,7 @@
 
       </div>
     </section> -->
-    <!-- #portfolio -->
+    <!-- #portfolio
 
     <!--==========================
       Testimonials Section
@@ -475,7 +475,7 @@
             <div class="member">
               <div class="pic"><img src="img/man.png" alt=""></div>
               <div class="details">
-                <h4>Brotos Seno</h4>
+                <h4>Broto Seno</h4>
                 <span>Designer</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
