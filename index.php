@@ -126,8 +126,8 @@
           </div>
 
           <div class="col-lg-6 content">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <h2>Welcome to the company</h2>
+            <h3>Please be prepared before you do it :).</h3>
 
             <ul>
               <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -163,7 +163,7 @@
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="fa fa-picture-o"></i></div>
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">ERP System</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
             </div>
@@ -424,11 +424,11 @@
         </div>
         <div class="row">
           
-          <div class="col-lg-1 col-md-0"></div>
+          <!-- <div class="col-lg-1 col-md-0"></div> -->
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/man.png" alt=""></div>
+              <div class="pic rounded-circle"><img src="img/n-circle.png" alt=""></div>
               <div class="details">
                 <h4>Naufal F Sayuti</h4>
                 <span>Business Development</span>
@@ -442,9 +442,9 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/man.png" alt=""></div>
+              <div class="pic rounded-circle"><img src="img/d-circle.png" alt=""></div>
               <div class="details">
                 <h4>Dzaky Rifqiatha</h4>
                 <span>Business Analyst</span>
@@ -458,9 +458,9 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/man.png" alt=""></div>
+              <div class="pic rounded-circle"><img src="img/t-circle.png" alt=""></div>
               <div class="details">
                 <h4>Tosca Yoel Connery</h4>
                 <span>Tech Lead</span>
@@ -474,7 +474,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6">
+          <!-- <div class="col-lg-2 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/man.png" alt=""></div>
               <div class="details">
@@ -483,16 +483,15 @@
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
                   <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/man.png" alt=""></div>
+              <div class="pic rounded-circle"><img src="img/a-circle.png" alt=""></div>
               <div class="details">
                 <h4>Anas Aditya</h4>
                 <span>Front End Lead</span>
@@ -506,7 +505,7 @@
             </div>
           </div>
 
-          <div class="col-lg-1 col-md-0"></div>
+          <!-- <div class="col-lg-1 col-md-0"></div> -->
 
         </div>
 
