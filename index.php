@@ -126,15 +126,14 @@
           </div>
 
           <div class="col-lg-6 content">
-            <h2>Welcome to the company</h2>
-            <h3>Please be prepared before you do it :).</h3>
-
+            <h2>Welcome to Reichminate</h2>
+            <h3>Reichminate is a software agency for web development. We are all about digitalizing your needs. We provide web development, e-commerce solutions, and content management. Let us help you to define your needs, cause <b>we believe that everything can be digitalized.</b></h3>
+            <h4>Our Values</h4>
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="ion-android-checkmark-circle"></i> <b>Quality</b>, We deliver premium value to our customers, we create outstanding products and unsurpassed service, we do it well.</li>
+              <li><i class="ion-android-checkmark-circle"></i> <b>Innovation</b>, Great just isn’t good enough, right? it’s about solving one problem after the next and focus on the process.</li>
+              <li><i class="ion-android-checkmark-circle"></i> <b>Commitment</b>, Committed in heart and mind, we commit to helping my customers. We understand how our products can impact our customers' business.</li>
             </ul>
-
           </div>
         </div>
 
@@ -164,6 +163,62 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Web Development</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Search Engine Optimization</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Content Creation</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Social Media Management</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Digital Advertising</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Ecommerce Solutions</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Search Engine Optimization</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">ERP System</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
             </div>
@@ -183,7 +238,7 @@
               <h4 class="title"><a href="">Magni Dolores</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
