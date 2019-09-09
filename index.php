@@ -130,9 +130,9 @@
             <h3>Reichminate is a software agency for web development. We are all about digitalizing your needs. We provide web development, e-commerce solutions, and content management. Let us help you to define your needs, cause <b>we believe that everything can be digitalized.</b></h3>
             <h4>Our Values</h4>
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i> <b>Quality</b>, We deliver premium value to our customers, we create outstanding products and unsurpassed service, we do it well.</li>
-              <li><i class="ion-android-checkmark-circle"></i> <b>Innovation</b>, Great just isn’t good enough, right? it’s about solving one problem after the next and focus on the process.</li>
-              <li><i class="ion-android-checkmark-circle"></i> <b>Commitment</b>, Committed in heart and mind, we commit to helping my customers. We understand how our products can impact our customers' business.</li>
+              <li><i class="ion-android-checkmark-circle"></i> <b>Quality</b><br> We deliver premium value to our customers, we create outstanding products and unsurpassed service, we do it well.</li>
+              <li><i class="ion-android-checkmark-circle"></i> <b>Innovation</b><br> Great just isn’t good enough, right? it’s about solving one problem after the next and focus on the process.</li>
+              <li><i class="ion-android-checkmark-circle"></i> <b>Commitment</b><br> Committed in heart and mind, we commit to helping my customers. We understand how our products can impact our customers' business.</li>
             </ul>
           </div>
         </div>
@@ -487,12 +487,12 @@
               <div class="details">
                 <h4>Naufal F Sayuti</h4>
                 <span>Business Development</span>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
+                  <i href=""><i class="fa fa-google-plus"></i></a>
                   <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -503,12 +503,12 @@
               <div class="details">
                 <h4>Dzaky Rifqiatha</h4>
                 <span>Business Analyst</span>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
+                  <i href=""><i class="fa fa-google-plus"></i></a>
                   <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -519,12 +519,12 @@
               <div class="details">
                 <h4>Tosca Yoel Connery</h4>
                 <span>Tech Lead</span>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
+                  <i href=""><i class="fa fa-google-plus"></i></a>
                   <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -550,12 +550,12 @@
               <div class="details">
                 <h4>Anas Aditya</h4>
                 <span>Front End Lead</span>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
-                  <!-- <i href=""><i class="fa fa-google-plus"></i></a> -->
+                  <i href=""><i class="fa fa-google-plus"></i></a>
                   <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -574,7 +574,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Contact Us</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
         </div>
 
         <div class="row contact-info">
