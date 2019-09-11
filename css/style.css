@@ -655,7 +655,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 200%;
   height: 100%;
   opacity: 0;
+<<<<<<< HEAD
   <<<<<<< HEAD transform: rotate(30deg);
+=======
+  transform: rotate(30deg);
+>>>>>>> d7ac2e85f85116cc8af09075bf4b6229938273e7
 
   background: rgba(255, 255, 255, 0.13);
   background: linear-gradient(to right,
@@ -663,6 +667,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       rgba(255, 255, 255, 0.13) 77%,
       rgba(255, 255, 255, 0.5) 92%,
       rgba(255, 255, 255, 0.0) 100%);
+<<<<<<< HEAD
   =======transform: rotate(200deg);
 
   background: rgba(255, 255, 255, 0.13);
@@ -672,6 +677,18 @@ body.mobile-nav-active #mobile-nav-toggle {
       rgba(255, 76, 165, 0.05) 80%,
       rgba(255, 255, 255, 0.1) 92%);
   >>>>>>>bcaba00a4bae8aa5ec3b8e84ba02b9ea0de9b4e2
+=======
+  transform: rotate(200deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 0, 128, 0.2) 0%,
+    rgba(255, 0, 128, 0.1) 50%,
+    rgba(255, 76, 165, 0.05) 80%,
+    rgba(255, 255, 255, 0.1) 92%
+  );
+>>>>>>> d7ac2e85f85116cc8af09075bf4b6229938273e7
 }
 
 .shine:hover:after {

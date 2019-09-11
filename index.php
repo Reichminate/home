@@ -183,7 +183,7 @@
             <div class="box shine wow fadeInLeft" style="overflow:hidden;">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Company Profile</a></h4>
-              <p class="description" style="overflow:hidden;">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
             </div>
           </div>
 
