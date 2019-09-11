@@ -627,37 +627,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-text-fill-color: transparent;
 }
 
-.shine:after {
-  content: "";
-  position: absolute;
-  top: -110%;
-  left: -210%;
-  width: 200%;
-  height: 200%;
-  opacity: 0;
-  transform: rotate(30deg);
-
-  background: rgba(255, 255, 255, 0.13);
-  background: linear-gradient(to right,
-      rgba(255, 255, 255, 0.13) 0%,
-      rgba(255, 255, 255, 0.13) 77%,
-      rgba(255, 255, 255, 0.5) 92%,
-      rgba(255, 255, 255, 0.0) 100%);
-}
-
-.shine:hover:after {
-  opacity: 1;
-  top: -30%;
-  left: -30%;
-  transition-property: left, top, opacity;
-  transition-duration: 0.7s, 0.7s, 0.15s;
-  transition-timing-function: ease;
-}
-
-.shine:active:after {
-  opacity: 0;
-}
-
 #services .box h4 {
   margin-left: 100px;
   font-weight: 700;
@@ -674,6 +643,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 100px;
   margin-bottom: 0;
   line-height: 24px;
+}
+
+/* Shine effect
+--------------------------------*/
+.shine:after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 200%;
+  width: 200%;
+  height: 100%;
+  opacity: 0;
+<<<<<<< HEAD
+  transform: rotate(30deg);
+
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%);
+=======
+  transform: rotate(200deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 0, 128, 0.2) 0%,
+    rgba(255, 0, 128, 0.1) 50%,
+    rgba(255, 76, 165, 0.05) 80%,
+    rgba(255, 255, 255, 0.1) 92%
+  );
+>>>>>>> bcaba00a4bae8aa5ec3b8e84ba02b9ea0de9b4e2
+}
+
+.shine:hover:after {
+  opacity: 1;
+  top: 10%;
+  left: 5%;
+  overflow-block: hidden;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
+.shine:active:after {
+  opacity: 0;
 }
 
 /* Clients Section
