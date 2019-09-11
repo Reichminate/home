@@ -7,7 +7,7 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
  
-  <!-- Favicons test -->
+  <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -24,6 +24,7 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -90,16 +91,36 @@
     </div>
   </header><!-- #header -->
 
+<section id=vid>
+
+  <div class="video-background">
+    <div class="video-wrap">
+      <div id="video">
+        <video id="bgvid" autoplay loop muted playsinline>
+          <source src="peru.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption text-center">
+    <h1>Skyrocketing</h1>
+    <h3>YOUR COMPANY</h3>
+    <a class="btn scrollto btn-outline-light btn-lg" href="#about">GET IN TOUCH</a>
+  </div>
+
+</section>
+
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro">
+  <!-- <section id="intro">
 
     <div class="intro-content">
       <h2>Skyrocketing  <br><span>YOUR COMPANY!</span><br></h2>
       <div>
         <a href="#about" class="btn-get-started scrollto">GET IN TOUCH</a>
-        <!-- <a href="#portfolio" class="btn-projects scrollto">Our Projects</a> -->
+        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
       </div>
     </div>
 
@@ -111,7 +132,13 @@
       <div class="item" style="background-image: url('img/intro-carousel/5.jpg');"></div>
     </div>
 
-  </section><!-- #intro -->
+  </section> -->
+
+
+
+
+  
+  <!-- #intro -->
 
   <main id="main">
 

@@ -13,6 +13,7 @@ body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -92,7 +93,7 @@ h6 {
 }
 
 #topbar .contact-info i {
-  color: #50d8af;
+  color: #FF0081;
   padding: 4px;
 }
 
@@ -146,13 +147,9 @@ h6 {
   display: inline-block;
 }
 
-/* F35C17 */
-
 #header #logo h1 a span {
   color: #C7CCCF;
 }
-
-/* #324000s */
 
 #header #logo img {
   padding: 0;
@@ -658,6 +655,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 200%;
   height: 100%;
   opacity: 0;
+<<<<<<< HEAD
+  transform: rotate(30deg);
+
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%);
+=======
   transform: rotate(200deg);
   
   background: rgba(255, 255, 255, 0.13);
@@ -668,6 +675,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     rgba(255, 76, 165, 0.05) 80%,
     rgba(255, 255, 255, 0.1) 92%
   );
+>>>>>>> bcaba00a4bae8aa5ec3b8e84ba02b9ea0de9b4e2
 }
 
 .shine:hover:after {
@@ -909,6 +917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   overflow: hidden;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 #team .member .pic img {
@@ -963,7 +972,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #FF0081;
 }
 
 #contact .contact-info address,
@@ -1055,6 +1064,64 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #2dc899;
 }
 
+/* start header video */
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#vid .caption {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1rem
+}
+
+.btn-lg {
+  border-width: small;
+  font-size: 1.1rem;
+  padding: .6rem 1.3rem;
+}
+
+@media (max-width: 568px) {
+  .caption h1 {
+    font-size: 2rem;
+    letter-spacing: .10rem;
+  }
+
+  .caption h3 {
+    font-size: 1.3rem;
+    padding-bottom: 1.2rem
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+  }
+
+  .col-md-8 h1 {
+    font-size: 1.7rem;
+  }
+}
+
+/* header video */
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1115,6 +1182,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .back-to-top {
     bottom: 15px;
   }
+
 
   #header {
     padding: 20px 0;
