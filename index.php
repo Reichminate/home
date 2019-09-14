@@ -521,27 +521,24 @@
 
         map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-        var uluru = {lat: 1.1126258, lng: 104.0925131};
+        var headquarters_position = {lat: 1.1126258, lng: 104.0925131};
 
-        var url_icon_marker = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png";
+        // var url_icon_marker = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png";
         // var url_icon_marker = "https://media.flaticon.com/dist/min/img/home/editor-1.png";
-        // var url_icon_marker = "https://image.flaticon.com/icons/svg/1465/1465405.svg";
+        var url_icon_marker = "https://image.flaticon.com/icons/svg/1465/1465405.svg";
 
         var marker = new google.maps.Marker({
-            position: uluru,
+            position: headquarters_position,
             map: map,
-            title:"Reichminate Headquarters",
+            title:"A place where your digital solutions come from.",
+            label: { color: '#FF0081', fontWeight: 'bold', fontSize: '11px', text: 'Reichminate Headquaters'},
             icon : {
                 url : url_icon_marker,
+                scaledSize: new google.maps.Size(40, 40),
+                origin: new google.maps.Point(0,0),
+                anchor: new google.maps.Point(0,0),
+                labelOrigin: { x: 14, y: -10}
             }
         });
-
-
-        // var icon = {
-        //     url: "../res/sit_marron.png", // url
-        //     scaledSize: new google.maps.Size(50, 50), // scaled size
-        //     origin: new google.maps.Point(0,0), // origin
-        //     anchor: new google.maps.Point(0, 0) // anchor
-        // };
     }
 </script>
