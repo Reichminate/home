@@ -523,9 +523,9 @@
 
         var uluru = {lat: 1.1126258, lng: 104.0925131};
 
-        // var url_icon_marker = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png";
+        var url_icon_marker = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png";
         // var url_icon_marker = "https://media.flaticon.com/dist/min/img/home/editor-1.png";
-        var url_icon_marker = "https://image.flaticon.com/icons/svg/1465/1465405.svg";
+        // var url_icon_marker = "https://image.flaticon.com/icons/svg/1465/1465405.svg";
 
         var marker = new google.maps.Marker({
             position: uluru,
