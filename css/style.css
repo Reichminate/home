@@ -603,6 +603,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services {
   padding: 30px 0 0 0;
+  overflow: hidden;
 }
 
 #services .box {
@@ -1064,17 +1065,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* start header video */
-#video .video-background {
+.video-background #video {
   position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
-#video .bgvid {
-  position: relative;
-  z-index: 10;
-  width: 100vw;
+#video #bgvid {
+  width: 100%;
 
 }
 

@@ -97,13 +97,11 @@
     Intro Section
   ============================-->
   <section class="video-background">
-    <div class="col">
       <div id="video">
         <video id="bgvid" autoplay loop muted playsinline>
           <source src="peru.mp4" type="video/mp4">
         </video>
       </div>
-    </div>
   </div>
 
   <div class="caption text-center">
