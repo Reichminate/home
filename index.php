@@ -37,8 +37,8 @@
   ======================================================= -->
   <style>
     #map {
-      width: 800px;
-      height: 600px;
+      width: 100%;
+      height: 400px;
     }
   </style>
 </head>
@@ -306,13 +306,13 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div> -->
 
-      <div class="container mb-4">
-        <iframe src="https://maps.google.com/maps?q=grand%20bsi&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
       <!-- <div class="container mb-4">
-        <div id="map"></div>
+        <iframe src="https://maps.google.com/maps?q=grand%20bsi&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div> -->
+
+      <div class="container mb-4">
+        <div id="map"></div>
+      </div>
 
       
 
@@ -392,44 +392,111 @@
 </html>
 
 
-<!-- <script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiudCrjI4vUzeYFjr6EkYxHMzFmYmjr34&callback=initMap"
+    async defer></script>
+
+<script>
         window.onload = function () {
 
-            var latlng = new google.maps.LatLng(53.385873, -1.471471);
+            var latlng = new google.maps.LatLng(1.1126258, 104.0925131);
 
             var styles = [
-                {
-                    featureType: "landscape",
-                    stylers: [
-                        { color: '#eeddee' }
-                    ]
-                },{
-                    featureType: "natural",
-                    stylers: [
-                        { hue: '#ff0000' }
-                    ]
-                },{
-                    featureType: "road",
-                    stylers: [
-                        { hue: '#5500aa' },
-                        { saturation: -70 }
-                    ]
-                },{
-                    featureType: "building",
-                    elementType: "labels",
-                    stylers: [
-                        { hue: '#000066' }
-                    ]
-                },{
-                    featureType: "poi", //points of interest
-                    stylers: [
-                        { hue: '#0044ff' }
-                    ]
-                }
+              
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "lightness": "-1"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#ff0081"
+            }
+        ]
+    }
+
             ];
 
             var myOptions = {
-                zoom: 14,
+                zoom: 13,
                 center: latlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 disableDefaultUI: true,
@@ -437,5 +504,12 @@
             };
 
             map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+            // google.maps.event.addDomListener(map, 'click', function(event) {
+            //     var myLatLng = event.latLng;
+            //     var lat = myLatLng.lat();
+            //     var lng = myLatLng.lng();
+            //     alert( 'lat '+ lat + ' lng ' + lng ); 
+            // }
         }
-    </script> -->
+    </script>
