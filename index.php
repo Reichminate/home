@@ -258,7 +258,7 @@
                                 <img src="img/t-circle.png" alt="">
                             </div>
                             <div class="details">
-                                <h4>Tosca Yoel Connery</h4>
+                                <h4>Connery</h4>
                                 <span>Tech Lead</span>
                             </div>
                         </div>
@@ -512,11 +512,12 @@
 
         map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-        // google.maps.event.addDomListener(map, 'click', function(event) {
-        //     var myLatLng = event.latLng;
-        //     var lat = myLatLng.lat();
-        //     var lng = myLatLng.lng();
-        //     alert( 'lat '+ lat + ' lng ' + lng ); 
-        // }
+        var uluru = {lat: 1.1126258, lng: 104.0925131};
+
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+            title:"Reichminate Headquarters",
+        });
     }
 </script>
