@@ -405,32 +405,12 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiudCrjI4vUzeYFjr6EkYxHMzFmYmjr34&callback=initMap" async defer></script>
 
 <script>
-    window.onload = function () {
-
+    function initMap() {
         var latlng = new google.maps.LatLng(1.1126258, 104.0925131);
-
         var styles = [
             {
                 "featureType": "administrative",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                    {
-                        "color": "#ff0081"
-                    }
-                ]
-            },
-            {
-                "featureType": "administrative",
                 "elementType": "labels.icon",
-                "stylers": [
-                    {
-                        "color": "#ff0081"
-                    }
-                ]
-            },
-            {
-                "featureType": "landscape",
-                "elementType": "labels.text.fill",
                 "stylers": [
                     {
                         "color": "#ff0081"
@@ -457,34 +437,7 @@
             },
             {
                 "featureType": "poi",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                    {
-                        "color": "#ff0081"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi",
                 "elementType": "labels.icon",
-                "stylers": [
-                    {
-                        "color": "#ff0081"
-                    }
-                ]
-            },
-            {
-                "featureType": "road",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                    {
-                        "color": "#ff0081"
-                    }
-                ]
-            },
-            {
-                "featureType": "transit",
-                "elementType": "labels.text.fill",
                 "stylers": [
                     {
                         "color": "#ff0081"
