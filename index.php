@@ -158,7 +158,7 @@
                             <i class="fa fa-bar-chart"></i>
                         </div>
                         <h4 class="title"><a href="">Company Profile</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+                        <p class="description">Create a high-quality website that combines your great ideas and our interactive design to make people more interested and easier to reach you.</p>
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@
                             <i class="fa fa-bar-chart"></i>
                         </div>
                         <h4 class="title"><a href="">Web Development</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+                        <p class="description">Build your own web-based application including E-Commerce, Online Auctions, CMS, Dashboard, and many other features as you like.</p>
                     </div>
                 </div>
 
@@ -178,7 +178,7 @@
                             <i class="fa fa-bar-chart"></i>
                         </div>
                         <h4 class="title"><a href="">Search Engine Optimization</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+                        <p class="description">Make your website appears on top of search result // increase ranking and visibility of your website/brand search engines.</p>
                     </div>
                 </div>
 
@@ -188,7 +188,7 @@
                             <i class="fa fa-bar-chart"></i>
                         </div>
                         <h4 class="title"><a href="">Content Creation</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+                        <p class="description">Create an interesting illustration, image, video, caption, article that relates to your market and make yourself as the best on your audiences.</p>
                     </div>
                 </div>
 
@@ -200,7 +200,7 @@
                         <h4 class="title">
                             <a href="">Social Media Management</a>
                         </h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+                        <p class="description">Have a consultation or even let us manage your Social Media to grow and interact with your customers.</p>
                     </div>
                 </div>
 
@@ -212,7 +212,7 @@
                         <h4 class="title">
                             <a href="">Digital Advertising</a>
                         </h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+                        <p class="description">Advertise your brands through many digital platforms to grab more attention on internet.</p>
                     </div>
                 </div>
             </div>
@@ -384,7 +384,7 @@
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <!-- <script src="lib/jquery/jquery-migrate.min.js"></script> -->
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/superfish/hoverIntent.js"></script>
