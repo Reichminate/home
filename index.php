@@ -112,9 +112,8 @@
             <a class="btn scrollto btn-outline-light btn-lg" href="#about">GET IN TOUCH</a>
         </div>
     </section>
-
-
     <!-- #intro -->
+    
     <main id="main">
         <!--==========================
         About Section
