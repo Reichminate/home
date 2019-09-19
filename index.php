@@ -6,7 +6,7 @@
     <meta content="" name="description">
     
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="img/company_icon.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -122,12 +122,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 about-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <img src="img/company_people.png" alt="">
                     </div>
 
                     <div class="col-lg-6 content">
                         <h2>Welcome to Reichminate</h2>
-                        <h3>Reichminate is a software agency for web development. We are all about digitalizing your needs. We provide web development, e-commerce solutions, and content management. Let us help you to define your needs, cause <b>we believe that everything can be digitalized.</b></h3>
+                        <h3><b>Reichminate is a software agency for web development. We are all about digitalizing your needs. We provide web development, e-commerce solutions, and content management. Let us help you to define your needs, cause we believe that everything can be digitalized.</b></h3>
                         <h4>Our Values</h4>
                         <ul>
                         <li><i class="ion-android-checkmark-circle"></i> <b>Quality</b><br> We deliver premium value to our customers, we create outstanding products and unsurpassed service, we do it well.</li>
@@ -177,7 +177,7 @@
                             <i class="fa fa-bar-chart"></i>
                         </div>
                         <h4 class="title"><a href="">Search Engine Optimization</a></h4>
-                        <p class="description">Make your website appears on top of search result // increase ranking and visibility of your website/brand search engines.</p>
+                        <p class="description">Make your website appears on top of search result / increase ranking and visibility of your website/brand search engines.</p>
                     </div>
                 </div>
 

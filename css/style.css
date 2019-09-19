@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -560,18 +560,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h2 {
-  color: #0c2e8a;
+  color: #000000;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
 }
 
 #about .content h3 {
-  color: #555;
+  color: #000000;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #about .content p {
