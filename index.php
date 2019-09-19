@@ -54,7 +54,7 @@
                 <i class="fa fa-phone"></i> +62 823 8800 0124
             </div>
             <div class="social-links float-right">
-                <a href="#" class="linkedin">
+                <a href="https://www.linkedin.com/company/reichminate" class="linkedin">
                     <i class="fa fa-linkedin"></i>
                 </a>
             </div>
@@ -121,7 +121,7 @@
         <section id="about" class="wow fadeInUp">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 about-img">
+                    <div class="col-lg-6 about-img" style="margin-top: 6em;">
                         <img src="img/company_people.png" alt="">
                     </div>
 
@@ -220,7 +220,7 @@
         <!--==========================
         Our Team Section
         ============================-->
-        <section id="team" class="wow fadeInUp">
+        <section id="team" class="wow fadeInUp" style="margin-top: 2em;">
             <div class="container">
                 <div class="section-header">
                     <h2>Our Team</h2>
@@ -234,7 +234,7 @@
                             </div>
                             <div class="details">
                                 <h4>Naufal F Sayuti</h4>
-                                <span>Business Development</span>
+                                <span>Business Development Manager</span>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
         <!--==========================
         Contact Section
         ============================-->
-        <section id="contact" class="wow fadeInUp">
+        <section id="contact" class="wow fadeInUp" style="margin-top: 3em;">
             <div class="container">
                 <div class="section-header">
                     <h2>Contact Us</h2>
@@ -477,7 +477,8 @@
 
         // var url_icon_marker = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png";
         // var url_icon_marker = "https://media.flaticon.com/dist/min/img/home/editor-1.png";
-        var url_icon_marker = "https://image.flaticon.com/icons/svg/1465/1465405.svg";
+        // var url_icon_marker = "https://image.flaticon.com/icons/svg/1465/1465405.svg";
+        var url_icon_marker = "img/company_icon.png";
 
         var marker = new google.maps.Marker({
             position: headquarters_position,
