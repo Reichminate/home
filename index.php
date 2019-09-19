@@ -67,11 +67,11 @@
     <header id="header">
         <div class="container">
             <div id="logo" class="pull-left">
-                <h1>
+                <!-- <h1>
                     <a href="#body" class="scrollto">Reich<span>minate</span></a>
-                </h1>
+                </h1> -->
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+                <a href="#body"><img src="img/reichminatelogo.png" style="width: 65%" alt="" title="" /></a>
             </div>
 
             <nav id="nav-menu-container">
@@ -363,16 +363,7 @@
     <footer id="footer">
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong>Reveal</strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
-                -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                &copy; Copyright . <?php echo date("Y"); ?> Reichminate
             </div>
         </div>
     </footer><!-- #footer -->
