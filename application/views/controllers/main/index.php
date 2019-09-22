@@ -74,7 +74,7 @@
                     <a href="#body" class="scrollto">Reich<span>minate</span></a>
                 </h1> -->
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="#body"><img src="<?= assets_url('img/reich-logo.png'); ?>" style="width: 60%" alt="" title="" /></a>
+                <a href="#body"><img src="<?= assets_url('img/logo.png'); ?>" style="width: 60%" alt="" title="" /></a>
             </div>
 
             <nav id="nav-menu-container">
