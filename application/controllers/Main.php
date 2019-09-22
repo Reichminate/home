@@ -26,6 +26,11 @@ class Main extends CI_Controller {
 		$this->load->view('controllers/main/index');
 	}
 
+	public function reach()
+	{
+		$this->load->view('controllers/main/reach');
+	}
+
 	public function mytest()
 	{
 		echo "We are testing this system";
