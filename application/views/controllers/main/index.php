@@ -167,7 +167,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInRight" style="overflow:hidden;">
                         <div class="icon">
-                            <img src="<?= assets_url('img/development.png'); ?>" width="70px">
+                            <img src="<?= assets_url('img/web.png'); ?>" width="70px">
                         </div>
                         <h4 class="title"><a href="">Web Development</a></h4>
                         <p class="description">Build your own web-based application including E-Commerce, Online Auctions, CMS, Dashboard, and many other features as you like.</p>
@@ -209,7 +209,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInRight" style="overflow:hidden;">
                         <div class="icon">
-                        <img src="<?= assets_url('img/ads.png'); ?>/" width="70px">
+                        <img src="<?= assets_url('img/digital-advertising.png'); ?>" width="70px">
                         </div>
                         <h4 class="title">
                             <a href="">Digital Advertising</a>
