@@ -79,19 +79,21 @@
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                <li class="menu-active">
-                    <a href="#body">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About Us</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#team">Team</a>
-                </li>
-                <li><a href="#contact">Contact</a></li>
+                    <li class="menu-active">
+                        <a href="#body">Home</a>
+                    </li>
+                    <li>
+                        <a href="#main">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Let's Talk</a>
+                    </li>
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
@@ -287,7 +289,7 @@
         <section id="contact" class="wow fadeInUp" style="margin-top: 3em;">
             <div class="container">
                 <div class="section-header">
-                    <h2>Contact Us</h2>
+                    <h2>Let's Talk</h2>
                 </div>
 
                 <div class="row contact-info">
