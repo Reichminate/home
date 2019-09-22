@@ -27,6 +27,9 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- font awesome -->
+    <link href="css/all.css" rel="stylesheet">
+
     <!-- =======================================================
         Theme Name: Reveal
         Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
@@ -71,7 +74,7 @@
                     <a href="#body" class="scrollto">Reich<span>minate</span></a>
                 </h1> -->
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="#body"><img src="img/reichminatelogo.png" style="width: 65%" alt="" title="" /></a>
+                <a href="#body"><img src="img/reich-logo.png" style="width: 60%" alt="" title="" /></a>
             </div>
 
             <nav id="nav-menu-container">
@@ -154,7 +157,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInLeft" style="overflow:hidden;">
                         <div class="icon">
-                            <i class="fa fa-bar-chart"></i>
+                        <img src="img/company.png" width="70px">
                         </div>
                         <h4 class="title"><a href="">Company Profile</a></h4>
                         <p class="description">Create a high-quality website that combines your great ideas and our interactive design to make people more interested and easier to reach you.</p>
@@ -164,7 +167,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInRight" style="overflow:hidden;">
                         <div class="icon">
-                            <i class="fa fa-bar-chart"></i>
+                            <img src="img/development.png" width="70px">
                         </div>
                         <h4 class="title"><a href="">Web Development</a></h4>
                         <p class="description">Build your own web-based application including E-Commerce, Online Auctions, CMS, Dashboard, and many other features as you like.</p>
@@ -174,7 +177,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInRight" style="overflow:hidden;">
                         <div class="icon">
-                            <i class="fa fa-bar-chart"></i>
+                        <img src="img/SEO.png" width="70px">
                         </div>
                         <h4 class="title"><a href="">Search Engine Optimization</a></h4>
                         <p class="description">Make your website appears on top of search result / increase ranking and visibility of your website/brand search engines.</p>
@@ -184,7 +187,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInRight" style="overflow:hidden;">
                         <div class="icon">
-                            <i class="fa fa-bar-chart"></i>
+                        <img src="img/content.png" width="70px">
                         </div>
                         <h4 class="title"><a href="">Content Creation</a></h4>
                         <p class="description">Create an interesting illustration, image, video, caption, article that relates to your market and make yourself as the best on your audiences.</p>
@@ -194,7 +197,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInRight" style="overflow:hidden;">
                         <div class="icon">
-                            <i class="fa fa-bar-chart"></i>
+                        <img src="img/social-media.png" width="70px">
                         </div>
                         <h4 class="title">
                             <a href="">Social Media Management</a>
@@ -206,7 +209,7 @@
                 <div class="col-lg-6">
                     <div class="box shine wow fadeInRight" style="overflow:hidden;">
                         <div class="icon">
-                            <i class="fa fa-bar-chart"></i>
+                        <img src="img/ads.png" width="70px">
                         </div>
                         <h4 class="title">
                             <a href="">Digital Advertising</a>
