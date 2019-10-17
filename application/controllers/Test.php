@@ -27,4 +27,10 @@ class Test extends CI_Controller {
 	{
 		echo "We are testing this system";
 	}
+
+	public function show_env()
+	{
+		print_r(ENVIRONMENT);
+		exit;
+	}
 }

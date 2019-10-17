@@ -1,5 +1,13 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+if (!defined('BASEPATH')) {
+    if (defined('ENVIRONMENT')) {
+        if (ENVIRONMENT != 'docker') {
+            exit('No direct script access allowed');
+        }
+    } else {
+        exit('No direct script access allowed');
+    }
+}
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +35,7 @@ if (isset($_SERVER['SERVER_SOFTWARE'])
     && strpos($_SERVER['SERVER_SOFTWARE'], 'Google App Engine') !== false
     && ENVIRONMENT == 'production'
 ) {
-    $config['base_url'] = 'https://' . $_SERVER['HTTP_HOST']; // production
+    $config['base_url'] = "https://" . $_SERVER['HTTP_HOST']; // production
 } else {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443)) ? "https://" : "http://";
 
@@ -76,7 +84,7 @@ $config['uri_protocol']	= 'REQUEST_URI';
 |
 | https://codeigniter.com/user_guide/general/urls.html
 */
-$config['url_suffix'] = '';
+$config['url_suffix'] = '/';
 
 /*
 |--------------------------------------------------------------------------
@@ -126,7 +134,7 @@ $config['enable_hooks'] = FALSE;
 | https://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'Reichminate';
 
 /*
 |--------------------------------------------------------------------------
@@ -148,7 +156,7 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = FALSE;
+$config['composer_autoload'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -194,10 +202,10 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 | use segment based URLs.
 |
 */
-$config['enable_query_strings'] = FALSE;
-$config['controller_trigger'] = 'c';
-$config['function_trigger'] = 'm';
-$config['directory_trigger'] = 'd';
+$config['enable_query_strings']  = FALSE;
+$config['controller_trigger']    = 'c';
+$config['function_trigger']      = 'm';
+$config['directory_trigger']     = 'd';
 
 /*
 |--------------------------------------------------------------------------
@@ -389,8 +397,8 @@ $config['encryption_key'] = '';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'ci_session';
+$config['sess_driver'] = 'database';
+$config['sess_cookie_name'] = 'appsession';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
@@ -412,8 +420,8 @@ $config['sess_regenerate_destroy'] = FALSE;
 |       'cookie_httponly') will also affect sessions.
 |
 */
-$config['cookie_prefix']	= '';
-$config['cookie_domain']	= '';
+$config['cookie_prefix']	= 'reichminatecookie_';
+$config['cookie_domain']	= $_SERVER['HTTP_HOST'];
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;
@@ -533,3 +541,16 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+
+// function __autoload($class)
+// {
+//  if(strpos($class, 'CI_') !== 0)
+//  {
+//   @include_once( APPPATH . 'core/'. $class . EXT );
+//  }
+// }
+
+// spl_autoload_register(function($class) {
+//     @include_once( APPPATH . 'core/'. $class . EXT );
+// });
